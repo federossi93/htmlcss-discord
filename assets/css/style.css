@@ -14,6 +14,31 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+.wave{
+    filter: invert(100%) 
+    sepia(9%) 
+    saturate(166%) 
+    hue-rotate(236deg)
+    brightness(114%) 
+    contrast(93%);
+    display: flex;
+}
+
+.wave_rotate{
+    filter: invert(100%) 
+    sepia(9%) 
+    saturate(166%) 
+    hue-rotate(236deg)
+    brightness(114%) 
+    contrast(93%);
+    rotate:180deg;
+    display: flex;
+}
+
+.margin{
+    margin-top: 100px;
+}
 /*#region utilities*/
 
 .flex{
@@ -141,8 +166,6 @@ div.description>button{
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
     max-width: 1280px;
 }
 
@@ -209,6 +232,9 @@ div.tecnology>h3{
 }
 
 /*#endmain*/
+
+
+/*#region footer*/
 
 footer{
     background-color: rgb(54, 53, 53);
@@ -279,3 +305,5 @@ div.title_footer> h2{
     background-color: var(--bg_button);
     color: white;
 }
+
+/*#endregion footer*/
