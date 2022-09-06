@@ -205,7 +205,7 @@ div.study_group>p{
 
 /*#endregion study_group*/
 
-#bg_color{
+.bg_color{
     background-color: var(--bg_main);
 }
 
